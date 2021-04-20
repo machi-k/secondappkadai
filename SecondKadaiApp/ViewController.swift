@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var name: UITextField!
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+        name.text = "name"
+        }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+  
+    
 }
-
